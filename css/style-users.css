@@ -1,0 +1,16 @@
+ .users {
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: space-around;
+     gap: 5rem;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+ }
+
+ .user__quantity {
+     font-size: 2.5rem;
+ }
+
+ .user__red-social {
+     font-size: 1.5rem;
+ }
