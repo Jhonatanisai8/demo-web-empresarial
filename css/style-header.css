@@ -1,0 +1,131 @@
+.menu {
+    position: absolute;
+    /* border: 0.5px solid black; */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.menu__logo {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #001011;
+}
+
+.navbar__item {
+    position: relative;
+    float: left;
+}
+
+.navbar__link {
+    padding: 1rem;
+    margin: .5em 1em;
+    color: #001011;
+    display: block;
+    font-size: 1rem;
+}
+
+.navbar__link:hover {
+    text-shadow: 2px 2px 5px #0289de;
+}
+
+#menu {
+    display: none;
+}
+
+.menu__icono {
+    width: 2rem;
+}
+
+.menu__label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    /* border: 0.5px solid red; */
+    align-items: center;
+    margin-top: 150px;
+}
+
+.header__1 {
+    width: 50%;
+}
+
+.header__title {
+    font-size: 4rem;
+    color: #FFFFFC;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.header_paragraf {
+    color: #001011;
+    font-size: 1.1rem;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 0.3rem .5rem;
+    margin: .8rem 0;
+    background-color: #0289de;
+    border-radius: .4rem;
+    color: #FFFFFC;
+    width: auto;
+    font-size: 1rem;
+    transition-duration: 1s;
+}
+
+.btn-1:hover {
+    font-size: 1.3rem;
+}
+
+.header__2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFC;
+    color: #001011;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 350px;
+    box-shadow: 0 0 1.2rem #0289de;
+    border-left: .5rem solid #0289de;
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+    animation: slide 3s linear;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.info__title {
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+    color: #001011;
+}
+
+.info__porcentaje {
+    font-size: 1rem;
+    color: #0289de;
+}
