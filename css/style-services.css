@@ -1,0 +1,27 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+}
+
+.service {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #FFFFFC;
+}
+
+.service__title {
+    font-size: 2rem;
+}
+
+.service__img {
+    width: 6rem;
+}
+
+.service__paragraf {
+    margin: .5rem .3rem;
+}

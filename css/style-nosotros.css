@@ -1,0 +1,31 @@
+.nosotros {
+    display: flex;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.nosotros__txt {
+    width: 50%;
+    padding: 2rem;
+}
+
+.nosotros__title {
+    font-size: 2.3em;
+}
+
+.nosotros__paragraf {
+    font-size: 1rem;
+
+}
+
+.nosotros__img {
+    padding: 2rem;
+    width: 50%;
+}
+
+.img__content {
+    width: 100%;
+    margin: 0 auto;
+}
