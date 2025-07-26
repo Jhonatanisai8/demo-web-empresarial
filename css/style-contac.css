@@ -1,0 +1,43 @@
+.contac {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__title {
+    text-align: center;
+    margin: 0.03rem;
+    font-size: 3rem;
+}
+
+.contacto__paragraf {
+    margin: 1.2rem 3rem;
+    text-align: center;
+}
+
+.contacto__botones {
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botones__link {
+    display: inline-block;
+    background-color: #0289de;
+    padding: .8rem;
+    margin: .8rem;
+    border-radius: 0.8rem;
+    color: #FFFFFC;
+    width: 15%;
+    max-width: 15%;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.botones__link:hover {
+    font-size: 1.1rem;
+}
